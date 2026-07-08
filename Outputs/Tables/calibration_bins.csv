@@ -1,0 +1,2 @@
+bin_low,bin_high,n,mean_predicted_probability,observed_high_risk_rate
+0.4,0.6000000000000001,240,0.5032227589797944,0.35

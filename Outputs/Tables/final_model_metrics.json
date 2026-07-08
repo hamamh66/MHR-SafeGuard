@@ -1,0 +1,10 @@
+{
+  "best_model": "RandomForest",
+  "feature_setting": "leakage_aware_features",
+  "train_mae": 2.2375086929338655,
+  "train_rmse": 2.746304926637737,
+  "train_r2": 0.12671505756776558,
+  "test_mae": 2.3698472469797207,
+  "test_rmse": 2.8998983268931635,
+  "test_r2": 0.012900178428571607
+}

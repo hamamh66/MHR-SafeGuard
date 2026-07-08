@@ -1,0 +1,6 @@
+weight_setting,weights,target_correlation_with_baseline,test_mae,test_rmse,test_r2
+stress_heavy_25_25_50,"{""Depression_Score"": 0.25, ""Anxiety_Score"": 0.25, ""Stress_Level"": 0.5}",0.9460856028606228,1.9272622395647712,2.4557041495501495,-0.08795202040807393
+equal_33_33_33,"{""Depression_Score"": 0.3333333333333333, ""Anxiety_Score"": 0.3333333333333333, ""Stress_Level"": 0.3333333333333333}",0.9894102522064789,2.3199728108109743,2.90212080007513,-0.06320717263718012
+baseline_40_30_30,"{""Depression_Score"": 0.4, ""Anxiety_Score"": 0.3, ""Stress_Level"": 0.3}",1.0,2.400128743992594,2.967822227473345,-0.03388276804339241
+depression_heavy_50_25_25,"{""Depression_Score"": 0.5, ""Anxiety_Score"": 0.25, ""Stress_Level"": 0.25}",0.9816310629868163,2.63685635969854,3.221252652901627,-0.02977438768247187
+anxiety_heavy_25_50_25,"{""Depression_Score"": 0.25, ""Anxiety_Score"": 0.5, ""Stress_Level"": 0.25}",0.8963304966789318,2.9375710581351333,3.498919907352705,-0.10793057621062707

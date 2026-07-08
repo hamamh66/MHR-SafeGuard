@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "status": "completed",
+  "model": "RandomForest",
+  "best_cv_rmse": 2.959353495114588,
+  "holdout_rmse": 2.912028420540573,
+  "previous_holdout_rmse": 2.8998983268931635,
+  "accepted": false,
+  "best_params": {
+    "n_estimators": 256,
+    "max_depth": 4,
+    "min_samples_leaf": 3,
+    "max_features": "sqrt"
+  }
+}

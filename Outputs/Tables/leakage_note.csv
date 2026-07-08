@@ -1,0 +1,3 @@
+setting,target_components_in_predictors,interpretation
+full_features,"Depression_Score, Anxiety_Score, Stress_Level",Optimistic upper bound; includes the variables used to construct MHR.
+leakage_aware_features,None,"Preferred scientific setting; removes Depression, Anxiety, and Stress from predictors."

@@ -1,0 +1,7 @@
+{
+  "model_card": "/content/drive/MyDrive/Outputs/MHR_SafeGuard_Research/Reports/MODEL_CARD_MHR_SafeGuard.md",
+  "data_card": "/content/drive/MyDrive/Outputs/MHR_SafeGuard_Research/Reports/DATA_CARD_MentalHealthFactors.md",
+  "inference_script": "/content/drive/MyDrive/Outputs/MHR_SafeGuard_Research/Models/mhr_safeguard_batch_inference.py",
+  "inference_template": "/content/drive/MyDrive/Outputs/MHR_SafeGuard_Research/new_patient_input_template.csv",
+  "readme": "/content/drive/MyDrive/Outputs/MHR_SafeGuard_Research/README_REPRODUCIBILITY.md"
+}

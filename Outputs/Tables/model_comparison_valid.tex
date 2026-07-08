@@ -1,0 +1,18 @@
+\begin{tabular}{llrrlrrrrrr}
+\toprule
+setting & model & nested\_cv\_rmse\_mean & nested\_cv\_rmse\_std & best\_params & train\_mae & train\_rmse & train\_r2 & test\_mae & test\_rmse & test\_r2 \\
+\midrule
+full\_features & Ridge & 0.000030 & 0.000001 & \{"model\_\_alpha": 0.0060252157362038605\} & 0.000016 & 0.000019 & 1.000000 & 0.000016 & 0.000019 & 1.000000 \\
+full\_features & ElasticNet & 0.000235 & 0.000013 & \{"model\_\_alpha": 0.00012674255898937226, "model\_\_l1\_ratio": 0.922918866945795\} & 0.000191 & 0.000235 & 1.000000 & 0.000190 & 0.000233 & 1.000000 \\
+full\_features & LightGBM & 0.232956 & 0.016859 & \{"model\_\_learning\_rate": 0.06714944960321372, "model\_\_n\_estimators": 103, "model\_\_num\_leaves": 17\} & 0.079907 & 0.104162 & 0.998744 & 0.130720 & 0.174631 & 0.996420 \\
+full\_features & GradientBoosting & 0.226332 & 0.004531 & \{"model\_\_learning\_rate": 0.08566889269210219, "model\_\_max\_depth": 3, "model\_\_n\_estimators": 117\} & 0.094892 & 0.121960 & 0.998278 & 0.136649 & 0.178202 & 0.996272 \\
+full\_features & XGBoost & 0.226806 & 0.003940 & \{"model\_\_learning\_rate": 0.08566889269210219, "model\_\_max\_depth": 3, "model\_\_n\_estimators": 117\} & 0.098956 & 0.127922 & 0.998105 & 0.137349 & 0.178943 & 0.996241 \\
+full\_features & SVR & 0.313157 & 0.018986 & \{"model\_\_C": 65.41210527692726, "model\_\_epsilon": 0.010030511953353274, "model\_\_gamma": "auto"\} & 0.009967 & 0.010035 & 0.999988 & 0.202102 & 0.275327 & 0.991102 \\
+full\_features & ExtraTrees & 0.388273 & 0.010370 & \{"model\_\_max\_depth": 12, "model\_\_min\_samples\_leaf": 4, "model\_\_n\_estimators": 103\} & 0.119132 & 0.161545 & 0.996978 & 0.223454 & 0.301913 & 0.989301 \\
+full\_features & RandomForest & 0.479755 & 0.033971 & \{"model\_\_max\_depth": 12, "model\_\_min\_samples\_leaf": 4, "model\_\_n\_estimators": 103\} & 0.177004 & 0.229344 & 0.993910 & 0.302726 & 0.389591 & 0.982184 \\
+leakage\_aware\_features & RandomForest & 2.968504 & 0.104783 & \{"model\_\_max\_depth": 4, "model\_\_min\_samples\_leaf": 3, "model\_\_n\_estimators": 166\} & 2.237509 & 2.746305 & 0.126715 & 2.369847 & 2.899898 & 0.012900 \\
+leakage\_aware\_features & GradientBoosting & 2.989759 & 0.106194 & \{"model\_\_learning\_rate": 0.0425378509573798, "model\_\_max\_depth": 2, "model\_\_n\_estimators": 94\} & 2.294522 & 2.823592 & 0.076871 & 2.374921 & 2.903008 & 0.010782 \\
+leakage\_aware\_features & XGBoost & 2.983335 & 0.102834 & \{"model\_\_learning\_rate": 0.0425378509573798, "model\_\_max\_depth": 2, "model\_\_n\_estimators": 94\} & 2.293393 & 2.822759 & 0.077416 & 2.386507 & 2.910193 & 0.005879 \\
+leakage\_aware\_features & SVR & 2.959574 & 0.110378 & \{"model\_\_C": 0.115279871282324, "model\_\_epsilon": 0.44447541666908114, "model\_\_gamma": "auto"\} & 2.352928 & 2.908788 & 0.020324 & 2.389685 & 2.918685 & 0.000069 \\
+\bottomrule
+\end{tabular}

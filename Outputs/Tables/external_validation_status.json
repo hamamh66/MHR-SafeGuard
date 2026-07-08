@@ -1,0 +1,5 @@
+{
+  "external_validation_enabled": false,
+  "expected_path": "/content/drive/MyDrive/Datasets/MentalHealth/external_anxiety_depression_data.csv",
+  "template_created": "/content/drive/MyDrive/Outputs/MHR_SafeGuard_Research/external_validation_template.csv"
+}

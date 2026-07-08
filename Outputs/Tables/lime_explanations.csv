@@ -1,0 +1,37 @@
+risk_case,test_index,feature_rule,lime_weight
+low,265,num__Loneliness_Score > 0.83,-0.202025015238294
+low,265,num__Family_History_Mental_Illness <= -0.70,-0.10641970145170722
+low,265,num__Sleep_Hours > 0.65,-0.10434599400244762
+low,265,cat__Gender_Other <= 0.00,0.0633376700537885
+low,265,cat__Education_Level_Bachelor's <= 0.00,-0.06075442806129999
+low,265,cat__Gender_Non-Binary <= 0.00,-0.050203779951170924
+low,265,-0.82 < num__Self_Esteem_Score <= -0.03,0.039309060845682954
+low,265,-0.76 < num__Work_Stress <= 0.02,0.0348665831418775
+low,265,num__Financial_Stress <= -0.77,0.031777515086317265
+low,265,0.00 < cat__Gender_Male <= 1.00,-0.029956045108144442
+low,265,cat__Education_Level_High School <= 0.00,0.023819090610420156
+low,265,cat__Education_Level_PhD > 0.00,-0.022771459093629185
+medium,402,num__Loneliness_Score > 0.83,-0.1982258202003427
+medium,402,num__Age <= -0.81,0.15622896877293677
+medium,402,num__Family_History_Mental_Illness <= -0.70,-0.11730392564417225
+medium,402,num__Self_Esteem_Score <= -0.82,0.08920442640667955
+medium,402,cat__Education_Level_Bachelor's <= 0.00,-0.06962867361914356
+medium,402,num__Social_Support_Score <= -0.76,-0.04810940758301822
+medium,402,-0.30 < num__Physical_Activity_Hrs <= 0.38,-0.04804652312736211
+medium,402,cat__Gender_Non-Binary <= 0.00,-0.04237114366055096
+medium,402,num__Financial_Stress <= -0.77,0.03320212544606748
+medium,402,num__Therapy > -0.53,-0.03218371274214989
+medium,402,num__Sleep_Hours <= -0.71,-0.029951175498378373
+medium,402,0.02 < num__Work_Stress <= 0.80,0.027771926196366658
+high,174,-0.70 < num__Family_History_Mental_Illness <= 1.43,0.11327807918201313
+high,174,-0.01 < num__Age <= 0.86,-0.1104347914599613
+high,174,num__Physical_Activity_Hrs <= -0.69,0.09889807723310429
+high,174,num__Self_Esteem_Score <= -0.82,0.07211710682689929
+high,174,cat__Education_Level_Bachelor's > 0.00,0.0670556696543838
+high,174,-0.71 < num__Sleep_Hours <= 0.00,0.05325311845744251
+high,174,cat__Gender_Non-Binary <= 0.00,-0.04904691724038044
+high,174,num__Social_Support_Score <= -0.76,-0.04162252466464413
+high,174,-0.73 < num__Loneliness_Score <= 0.05,0.029903010453690412
+high,174,cat__Gender_Other <= 0.00,0.02751071221264673
+high,174,num__Chronic_Illnesses <= -0.60,-0.024586916696689696
+high,174,cat__Education_Level_PhD <= 0.00,0.023074791367909613

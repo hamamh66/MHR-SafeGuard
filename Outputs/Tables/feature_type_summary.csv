@@ -1,0 +1,3 @@
+setting,numeric_count,categorical_count,numeric_features,categorical_features
+full_features,16,5,"Age, Sleep_Hours, Physical_Activity_Hrs, Social_Support_Score, Anxiety_Score, Depression_Score, Stress_Level, Family_History_Mental_Illness, Chronic_Illnesses, Therapy, Meditation, Financial_Stress, Work_Stress, Self_Esteem_Score, Life_Satisfaction_Score, Loneliness_Score","Gender, Education_Level, Employment_Status, Medication_Use, Substance_Use"
+leakage_aware_features,13,5,"Age, Sleep_Hours, Physical_Activity_Hrs, Social_Support_Score, Family_History_Mental_Illness, Chronic_Illnesses, Therapy, Meditation, Financial_Stress, Work_Stress, Self_Esteem_Score, Life_Satisfaction_Score, Loneliness_Score","Gender, Education_Level, Employment_Status, Medication_Use, Substance_Use"

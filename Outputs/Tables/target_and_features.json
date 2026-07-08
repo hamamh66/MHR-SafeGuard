@@ -1,0 +1,11 @@
+{
+  "target": "MHR",
+  "formula": "0.40*Depression_Score + 0.30*Anxiety_Score + 0.30*Stress_Level",
+  "all_features": 21,
+  "leakage_aware_features": 18,
+  "excluded_target_components": [
+    "Depression_Score",
+    "Anxiety_Score",
+    "Stress_Level"
+  ]
+}

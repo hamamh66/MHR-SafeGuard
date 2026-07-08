@@ -1,0 +1,3 @@
+Age,Gender,Education_Level,Employment_Status,Sleep_Hours,Physical_Activity_Hrs,Social_Support_Score,Family_History_Mental_Illness,Chronic_Illnesses,Medication_Use,Therapy,Meditation,Substance_Use,Financial_Stress,Work_Stress,Self_Esteem_Score,Life_Satisfaction_Score,Loneliness_Score,MHR,source_index,desired_low,desired_high,attempted_total_CFs
+20,Female,Master's,Student,4.2,3.8,5,0,0,Occasional,0,0,Occasional,1,1,5,5,9,8.0,239,1.0,8.5,4
+20,Female,Master's,Student,5.3,5.9,2,0,0,Occasional,1,1,Occasional,7,8,4,3,9,8.0,239,1.0,8.5,4
